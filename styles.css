@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Subtle background color */
+}
+
+.header-class {
+  background-color: #333; /* Contrasting background for header */
+  color: #fff; /* White text color for header */
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-class {
+  background-color: #444; /* Navigation background */
+  color: #fff; /* White font color */
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-link-class {
+  color: #fff; /* White links */
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-link-class:hover {
+  font-weight: bold; /* Bold active links */
+  color: #ff6347; /* Change to a different color on hover */
+}
+
+.title-class, .section-title-class {
+  color: #333; /* Dark color for headings */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.text-class {
+  color: #555; /* Contrasting text color */
+  font-size: 16px;
+}
+
+.image-class {
+  border: 5px solid #ddd; /* Subtle border for images */
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+.form-class input[type="email"],
+.form-class input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-class input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-class input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.footer-class {
+  background-color: #333; /* Dark footer background */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.faq-class {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.faq-question-class {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Make the layout responsive */
+  .nav-class {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .nav-link-class {
+    display: inline-block;
+    margin: 5px 0;
+  }
+
+  .form-class input[type="email"],
+  .form-class input[type="text"] {
+    width: 100%; /* Make form inputs responsive */
+  }
+}
